@@ -1,4 +1,4 @@
-# 5-Open-Source-AI-Tools
+# Six-Open-Source-AI-Tools
 TensorFlow - PyTorch - OpenAI Gym - Stable Diffusion - Hugging Face Transformers
 
 
@@ -38,3 +38,9 @@ Use NLP models with just a few lines of code. For text-based AI tasks Hugging Fa
 
     pip install transformers
 
+## 6. Ollama Deepseek
+
+**DeepSeek** is an advanced AI model for natural language processing, offering precise text generation and analysis. 🚀
+
+    import ollama
+    print(ollama.chat(model="deepseek", messages=[{"role": "user", "content": "Hola, ¿cómo estás?"}])["message"]["content"])
